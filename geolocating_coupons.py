@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 store_lat, store_lon = 39.1031, -84.5120
 
 # insert user zip code
-user_zipcode = "30078"
+user_zipcode = "41058"
 
 # get latitude and longitude from user's zip code
 nomi = pgeocode.Nominatim('US')
