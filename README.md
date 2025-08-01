@@ -5,6 +5,11 @@ With my group we used Google Colab to create Python code using the pandas, matpl
 Challenges arose in the checkproximity function when finding the distance from the store to the user. In the future I would like to use AI to predict user engagement, optimize the geofence radius for better customer targeting and also for anomaly detection in location data.
 This project can help facilitate traffic of in person shoppers so that they are tempted when they are by your business to search and go in. Will probably be best paired with an application that offers deals to from large amounts of businesses. 
 
+## Purpose
+Check if a user (based on ZIP code) is within a specified radius of a store location, and if so, generate a promotional offer and visualize the result.
+
+
+
 
 ~~How users can get started with the project
 Where users can get help with your project
