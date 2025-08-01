@@ -29,6 +29,13 @@ This Python project determines whether a user is eligible for a location-based o
 
 ---
 
+## 🛠️ Future Enhancements
+- Batch processing from CSV
+- Database integration for storing results
+- Interactive map
+- Role-based access and user authentication
+- Deployment to cloud
+
 ## Project Description
 This project was made to for a case competition to solve the problem statement "Using the dataset, suggest ways to use AI to analyze people's spending habits and offer custom rewards or deals in real time while theyre shopping" in the 2 hour time span, I took the approach to use the location of the user to generate if they are close enough to a location to be alerted they have a coupon avalable to shop at that store.
 With my group we used Google Colab to create Python code using the pandas, matplotlib, and pgeocode libraries to analyze and visualize our results.
