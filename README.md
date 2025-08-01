@@ -25,7 +25,7 @@ This Python project determines whether a user is eligible for a location-based o
 | `geopy`      | Geodesic distance calculation |
 | `matplotlib` | Map visualization |
 | `pandas`     | Data summarization and export |
-| `streamlit` _(optional)_ | Web interface for user input and output |
+| `streamlit` | Web interface for user input and output |
 
 ---
 
