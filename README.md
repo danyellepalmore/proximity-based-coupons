@@ -1,16 +1,36 @@
-# proximity-based-coupons
+# 🗺️ Geofence Eligibility Checker
+
+This Python project determines whether a user is eligible for a location-based offer by checking if their ZIP code falls within a specified radius of a store. It combines geolocation, distance calculation, and data visualization.
+
+---
+
+## 📌 Project Overview
+
+- **Store Location:** Hardcoded latitude and longitude
+- **User Input:** ZIP code
+- **Functionality:**
+  - Converts ZIP code to geographic coordinates
+  - Calculates geodesic distance to store
+  - Checks if user is within a geofence radius
+  - Generates a personalized offer if eligible
+  - Visualizes store and user locations on a map
+
+---
+
+## 🧰 Technologies Used
+
+| Tool/Library | Purpose |
+|--------------|---------|
+| `pgeocode`   | ZIP code to latitude/longitude conversion |
+| `geopy`      | Geodesic distance calculation |
+| `matplotlib` | Map visualization |
+| `pandas`     | Data summarization and export |
+| `streamlit` _(optional)_ | Web interface for user input and output |
+
+---
+
 ## Project Description
 This project was made to for a case competition to solve the problem statement "Using the dataset, suggest ways to use AI to analyze people's spending habits and offer custom rewards or deals in real time while theyre shopping" in the 2 hour time span, I took the approach to use the location of the user to generate if they are close enough to a location to be alerted they have a coupon avalable to shop at that store.
 With my group we used Google Colab to create Python code using the pandas, matplotlib, and pgeocode libraries to analyze and visualize our results.
 Challenges arose in the checkproximity function when finding the distance from the store to the user. In the future I would like to use AI to predict user engagement, optimize the geofence radius for better customer targeting and also for anomaly detection in location data.
-This project can help facilitate traffic of in person shoppers so that they are tempted when they are by your business to search and go in. Will probably be best paired with an application that offers deals to from large amounts of businesses. 
 
-## Purpose
-Check if a user (based on ZIP code) is within a specified radius of a store location, and if so, generate a promotional offer and visualize the result.
-
-
-
-
-~~How users can get started with the project
-Where users can get help with your project
-Who maintains and contributes to the project~~
